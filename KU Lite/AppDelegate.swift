@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         homeUrl = self.getHomeurl()
         if homeUrl == "" {
-            homeUrl = "https://kubrowser.net/ios"
+            homeUrl = "https://onbibi.com/search"
             self.setHomeurl(value: homeUrl)
         }
         incognito = self.getIncognito()
