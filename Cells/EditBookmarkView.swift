@@ -1,9 +1,5 @@
 //
 //  EditBookmarkView.swift
-//  KU Lite
-//
-//  Created by Eric on 2019/11/14.
-//  Copyright © 2019 ThunPham. All rights reserved.
 //
 
 import UIKit
