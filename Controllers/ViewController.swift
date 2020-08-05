@@ -1,9 +1,7 @@
 //
 //  ViewController.swift
-//  KU Lite
+//  
 //
-//  Created by Eric on 2019/11/13.
-//  Copyright © 2019 ThunPham. All rights reserved.
 //
 
 import UIKit
@@ -170,7 +168,7 @@ class ViewController: UIViewController, UITextFieldDelegate, WKUIDelegate, UITab
         var urlString = url
         if urlString.range(of: ".") == nil {
             let searchQuery = urlString.replacingOccurrences(of: " ", with: "+", options: .literal, range: nil)
-            urlString = "https://www.google.com/search?q=" + searchQuery
+            urlString = "https://onbibi.com/search?q=" + searchQuery
         } else if urlString.range(of: "https://") == nil {
             if urlString.range(of: "http://") == nil {
                 urlString = "https://" + urlString
